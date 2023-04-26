@@ -13,7 +13,7 @@ def shouldadd(i, S):
     return ret
 
 
-A, B, S = sys.stdin.readline().split()
+A, B, S = map(int(sys.stdin.readline().split()))
 
 ans = []
 for i in range(int(A), int(B)+1):
