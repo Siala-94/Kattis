@@ -1,0 +1,35 @@
+Plan
+
+For each test case, we need to construct a ranklist with minimal possible badness.
+First, we need to sort the teams based on their preferred place in ascending order.
+Then, we need to compare each team's preferred place with their actual place in the ranklist.
+If the actual place is equal to the preferred place, we move on to the next team.
+If the actual place is not equal to the preferred place, we swap the team with the team that is currently in the preferred place until we get to the actual place of the team.
+We count the number of swaps needed for each team to get to their actual place, and add it to the total badness of the ranklist.
+Finally, we output the total badness of the ranklist.
+
+
+2
+
+7
+noobz 1
+llamas 2
+Winn3rz 2
+5thwheel 1
+NotoricCoders 5
+StrangeCase 7
+WhoKnows 7
+
+3
+ThreeHeadedMonkey 1
+MoscowSUx13 1
+NeedForSuccess 1
+
+
+12 12 5 3 5
+2 11 3 3 9 5
+1 9 6 9 1 7 4 4 7 1 7 4
+10 9 10 12 11 4 12 4
+9 7 8 1 3
+4 3
+2 2 6 6 6 2 2 6 8 2 8 2

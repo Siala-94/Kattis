@@ -1,0 +1,27 @@
+13
+how now brown <animal>
+<foo> now <color> cow
+who are you
+<a> <b> <a>
+<a> b
+c <a>
+<a> <a> <a> <a> <a> <a> <a> <a>
+<b> <b> <b> <b> <b> <b> r <x>
+<a> <d> <a> a
+<c> <c> <d> <c>
+<a> <d> <a> <e>
+<c> <c> a <e>
+<a> <c> r r <c> <a>
+<c> <b> <a> <a> <b> <c>
+<a> <a> <d> <d> <f> <f> <a>
+<b> <c> <c> <e> <e> <g> q
+<a> <a> <a> <d> <d> <f> <f> <a>
+<b> q <c> <c> <e> <e> <g> q
+<a> <a> <a> <d> <d> <f> <f>
+<b> q <c> <c> <e> <e> <g>
+qv <h> <h> <g> <g> <m> <m> <k> <k> <s> <s> <o> <o> <d> <d> <n> <n> <u> <u> <z> <z> <p> <p> <y>
+<h> <h> <g> <g> <m> <m> <k> <k> <s> <s> <o> <o> <d> <d> <n> <n> <u> <u> <z> <z> <p> <p> <y> <y>
+<h> <h> <g> <g> <m> <m> <k> <k> <s> <s> <o> <o> <d> <d> <n> <n> <u> <u> <z> <z> <p> <p> <y> <y>
+qv <h> <h> <g> <g> <m> <m> <k> <k> <s> <s> <o> <o> <d> <d> <n> <n> <u> <u> <z> <z> <p> <p> <y>
+<y> <p> <p> <z> <z> <u> <u> <n> <n> <d> <d> <o> <o> <s> <s> <k> <k> <m> <m> <g> <g> <h> <h> dp
+<y> <y> <p> <p> <z> <z> <u> <u> <n> <n> <d> <d> <o> <o> <s> <s> <k> <k> <m> <m> <g> <g> <h> <h>

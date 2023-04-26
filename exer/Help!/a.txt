@@ -1,0 +1,32 @@
+# go through a
+    for i in range(size):
+        phrase_a += fill_phrase(a,b,i, Hmap) + " "
+
+    Hmap.clear()
+    t_a = phrase_a.split()
+    # go through b
+    for i in range(size):
+        phrase_b += fill_phrase(b,t_a,i, Hmap) + " "
+
+    t_b = phrase_b.split()
+    phrase_a =""
+    Hmap.clear()
+    for i in range(size):
+        phrase_a += fill_phrase(t_a,t_b,i, Hmap) + " "
+
+    t_a = phrase_a.split()
+    phrase_a = ""
+    Hmap.clear()
+    for i in range(size):
+        phrase_a += fill_phrase(t_a, t_b, i, Hmap)
+
+    t_a = phrase_a.split()
+    phrase_a = ""
+    t_b = phrase_b.split()
+    phrase_b = ""
+    Hmap.clear()
+    for i in range(size):
+        phrase_b += fill_phrase(t_b, t_a, i, Hmap)
+    t_a = phrase_a.split()
+    phrase_a = ""
+    t_b = phrase_b.split()
