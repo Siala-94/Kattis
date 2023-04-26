@@ -1,18 +1,13 @@
-def factorial(start, end):
-    if start > end:
-        return 1
-    if start == end:
-        return start
-    mid = (start + end) // 2
-    return factorial(start, mid) * factorial(mid + 1, end)
+import sys
+number = int(sys.stdin.readline())
+result = 1
 
+for i in range(2, number+1):
+    result *= i
 
-n = int(input())
+    while result % 10 == 0 and result != 0:
+        result //= 10
 
-result = factorial(1, n)
+    result %= 10**12
 
-while result % 10 == 0:
-    result //= 10
-
-ans = str(result)[-3:]
-print(ans)
+print(str(result)[-3:])
